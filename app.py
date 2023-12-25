@@ -23,7 +23,7 @@ def ask_question():
         return jsonify({'error': str(e)}), 500
 
 def query_chatgpt(question):
-    api_key = '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'
+    api_key = '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'
     api_url = 'https://api.openai.com/v1/completions'
 
     headers = {
